@@ -1,0 +1,112 @@
+
+# ==========================================
+# Real-Time Vehicle Accident Detection
+# ESP32-S3 | PlatformIO | TinyML
+# ==========================================
+
+# PlatformIO build files
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# PlatformIO IDE
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+.vscode/.cache/
+
+# Arduino / ESP32 build artifacts
+build/
+dist/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.d
+*.su
+*.lst
+
+# Compiled firmware
+firmware/.pio/
+firmware/build/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Machine Learning training artifacts
+training/runs/
+training/logs/
+training/output/
+training/outputs/
+training/checkpoints/
+training/tensorboard/
+training/.ipynb_checkpoints/
+
+# Large temporary datasets
+training/datasets/
+training/raw_data/
+training/temp/
+*.h5
+*.keras
+*.ckpt
+*.tflite.tmp
+
+# Keep the final TinyML model if required
+# Do not ignore *.tflite globally
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.h
+credentials.h
+config_private.h
+
+# API keys and credentials
+*secret*
+*credential*
+*password*
+*.pem
+*.key
+*.p12
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+*.sublime-workspace
+
+# Backup files
+*~
+*.old
+*.orig
